@@ -1,0 +1,107 @@
+*{
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    
+}
+
+h3, h4, h5, h6 {
+    margin: 0;
+    
+}
+
+
+
+#log_in_button{
+    width:40% !important;
+}
+
+#pas{
+    width:80%;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+.shadow{
+    opacity:0.4;
+    border: solid 3px red !important;
+    border-radius: 1%;
+}
+
+
+.wrap{
+    padding: 5px 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#logout{
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 15px;;
+}
+
+.form-wrap{
+    display:flex;
+    justify-content: center;
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #eceff1;
+}
+
+select{
+    display: block;
+}
+
+#deletePhotos{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+}
+
+.images{
+    width: 70%;
+    margin: 50px auto;
+    display: grid;
+    grid-column-gap: 9px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px ;
+    grid-auto-rows: 150px;
+    grid-auto-flow: row dense;
+    
+}
+
+.cms-img{
+    border: solid 1px #919191;
+}
+
+@media only screen and (max-width: 800px) {
+    .form-wrap{
+        width: 100% !important;
+        margin:50px 0 20px !important;        
+        padding: 15px 15px;
+    }
+
+    .wrap{
+        padding: 5px 0 ;
+        text-align: left;
+        
+    }
+
+
+    
+  }
